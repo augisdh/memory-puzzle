@@ -1,6 +1,6 @@
 # Memory puzzle game
 
-###### Project setup
+## Project setup
 Install all dependencies:
 ```sh
 npm install
