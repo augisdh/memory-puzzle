@@ -5,9 +5,7 @@ const cards = ['2','2','3','3','4','4','5','5','6','6','7','7','8','8','9','9','
 const domContainer = document.querySelector('.container');
 const domShuffleBtn = document.querySelector('.shuffle-btn');
 
-domShuffleBtn.addEventListener('click', () => {
-  startGame();
-});
+domShuffleBtn.addEventListener('click', startGame);
 
 function generateDom(array) {
   array.forEach(card => {
