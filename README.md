@@ -1,17 +1,15 @@
 # Memory puzzle game
 
-## Project setup
-```
+###### Project setup
+Install all dependencies:
+```sh
 npm install
 ```
-
-### Compiles and hot-reloads for development
+Compiles and hot-reloads for development:
+```sh
+npm start
 ```
-npm start```
-
-
-
-### .
-
-If dev server port is used in your machine go to package.json and in "Scripts"=>"start": add (--port <port number>). For example "start": 
-```"webpack-dev-server --port 9000"```
+### Dev server port
+If dev server port is used in your machine go to package.json 
+```Scripts => start```: add (--port <port number>)
+For example ```"start": "webpack-dev-server --port 9000"```
